@@ -1,0 +1,226 @@
+body{
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 767px 400px;
+}
+
+#dates{
+    text-align: center;
+    color: white;
+    background-color: #2A2E41B2;
+    height:897px;
+    width: 400px;
+}
+
+#march{
+    margin-top:42px;
+    margin-bottom: 42px;
+}
+
+#arrov1{
+    border-left:1px solid white;
+    border-bottom: 1px solid white;
+    height: 12px;
+    width:12px;
+    transform: rotateZ(-135deg);
+    position: absolute;
+    margin-left:86px;
+    margin-top:3px;
+}
+
+#arrov2{
+    border-left:1px solid white;
+    border-bottom: 1px solid white;
+    height: 12px;
+    width:12px;
+    transform: rotateZ(45deg);
+    position: absolute;
+    margin-left: -96px;
+    margin-top:3px;
+}
+
+#table{
+    font-size:15px;
+    margin-left: 51px;
+    margin-right: 51px;
+    position: absolute;
+}
+
+#events{
+    color:#243D6F;
+    background-color: white;
+}
+
+#day{
+    font-size:18px;
+    margin-top: 42px;
+    margin-left: 71px;
+}
+
+#first_part{
+    position: absolute;
+    height: 15px;
+    width:15px;
+    border-radius:15px;
+    border-color:#8998B4;
+    border:1px solid;
+    margin-left: 585px;
+    transform:translateY(2px)
+}
+
+#second_part{
+    border:1px solid;
+    color:#8998B4;
+    background-color: #8998B4;
+    width:7px;
+    margin-left: 600px;
+    transform: translateY(18px) translateX(-3px) rotateZ(45deg);
+}
+
+#quadra{
+    display: grid;
+    grid-template-columns: 7px 7px;
+    grid-gap:4px;
+    position:absolute;
+    margin-left:620px;
+}
+
+.square{
+    border:1px solid;
+    height: 7px;
+    width: 7px;
+    color:#8998B4
+}
+
+.time{
+    font-size:13px;
+    color: #A4B0C3;
+    margin-top: 45px;
+}
+
+#firstItem{
+    margin-top:85px;
+}
+
+.event1{
+    border-left: solid;
+    border-color:#8576ED;
+    background-color: #8576ED26;
+    color:#243D6F;
+    font-weight: 250;
+    font-size: 14px;
+    width:550px;
+    padding: top 21px;
+    padding-left: 38px;
+    line-height: 62px;
+    position: absolute;
+    margin-left:74px;
+    transform:translateY(-10px);
+}
+
+.event2{
+    border-left: solid;
+    border-color:#3D83F9;
+    background-color: #3D83F926;
+    color:#243D6F;
+    font-weight: 250;
+    font-size: 14px;
+    width:550px;
+    padding: top 21px;
+    padding-left: 38px;
+    line-height: 150px;
+    position: absolute;
+    margin-left:74px;
+    transform:translateY(-15px);
+}
+
+.event3{
+    border-left: solid;
+    border-color:#EEA57C;
+    background-color: #EEA57C26;
+    color:#243D6F;
+    font-weight: 250;
+    font-size: 14px;
+    width:550px;
+    padding: top 21px;
+    padding-left: 38px;
+    line-height: 120px;
+    position: absolute;
+    margin-left:74px;
+    transform:translateY(-15px);
+}
+
+.line{
+    border:1px solid #000000;
+    width:300px;
+    margin-left:50px;
+    margin-right:50px;
+    opacity: 0.17;
+}
+
+.line2{
+    border:1px solid #000000;
+    width:300px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:434px;
+    opacity: 0.17;
+}
+
+#days{
+    opacity: 0.6;
+}
+
+.numbers{
+    opacity: 0.6;
+}
+
+#categories{
+    margin-top:53px;
+    text-align:left;
+    margin-left:50px;
+    font-size: 13px;
+}
+
+.grid-buttons{
+    display: grid;
+    grid-template-columns: 142px 142px;
+    text-align: center;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:21px;
+    grid-gap:15px;
+}
+
+.button{
+    width: 142px;
+    height:40px;
+    border-radius: 6px;
+    border:none;
+    font-size:11px;
+    color:white;
+}
+
+#finance{
+    background-color: #8576ED;
+}
+
+#managment{
+    background-color: #F39946;
+}
+
+#design{
+    background-color: #FF467E;
+}
+
+.number{
+    line-height:35px;
+    border-radius: 100%;
+    background-color: #3C82F9;
+}
+
